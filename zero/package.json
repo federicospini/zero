@@ -1,12 +1,18 @@
 {
-  "author": {
-    "name": "{{author.name}}",
-    "email": "{{author.email}}",
-    "site": "{{author.site}}"
-  },
   "name": "{{project.name}}",
   "description": "{{project.description}}",
   "version": "0.0.0",
+  "maintainers": [
+    {
+      "name": "Enrico Marino",
+      "email": "enrico.marino@email.com"
+    },
+    {
+      "name": "Federico Spini",
+      "email": "federico.spini@gmail.com"
+    }
+  ],
+  "main": "index.js",
   "homepage": "https://github.com/{{author.github}}/{{project.name}}",
   "repository": {
     "type": "git",
